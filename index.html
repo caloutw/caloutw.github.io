@@ -3,9 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>XERport</title>
+        <title>負載轉移中...</title>
+
+        <script>
+            let server = `https://web-calou.calou.cc/`;
+            (function() {
+              const params = window.location.search; // 取得 ?p=123
+              const newUrl = `${server}${params}`;
+              window.location.replace(newUrl);
+            })();
+        </script>
     </head>
     <body>
-        Hello World
+        正在轉移您的請求...
     </body>
 </html>

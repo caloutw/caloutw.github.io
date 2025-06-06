@@ -42,7 +42,7 @@
 
 ### 0.7.5 Beta (2025/06/06 00:00)
 - Waimai XD.NET 正式上線，B-2502t 永久停用
-- 網站搬家至 [https://waimai-xd.calou.cc/?p=home](https://waimai-xd.calou.cc/?p=home)
+- 網站搬家至 [https://caloutw.github.io](https://caloutw.github.io)
 
 ### 0.7.7 Beta (2025/06/06 12:15)
 - 現在歌曲分數會驗證然後排序

@@ -33,6 +33,9 @@
 ### Version 0.6.8 Beta
 - 腳本升級至 v1.4，請更新
 
+### Version 0.7.4 Beta
+- 抽歌功能上線
+
 ### Version 0.7.5 Beta
 - Waimai XD.NET 正式上線，B-2502t 永久停用
 - 網站搬家至 [https://waimai-xd.calou.cc/?p=home](https://waimai-xd.calou.cc/?p=home)

@@ -4,7 +4,7 @@ function main() {
 
     const DX_Rating_iframe = document.createElement("iframe");
     DX_Rating_iframe.src = "https://maimaidx-eng.com/maimai-mobile/home/ratingTargetMusic/";
-    DX_Rating_iframe.style = "display:none;"
+    DX_Rating_iframe.style = "display:none;";
     document.body.appendChild(DX_Rating_iframe);
 
     function decodeHTMLEntities(str) {

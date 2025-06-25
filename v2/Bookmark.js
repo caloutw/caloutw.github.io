@@ -92,7 +92,7 @@ function main() {
         if (result) {
             const playerData_encode = encodeURIComponent(JSON.stringify(result));
             
-            location.href = `${server}?p=mrc50&r=${playerData_encode}&v=${version}&method=BOOKMARK`;
+            location.href = `${server}?p=mrc50&d=${playerData_encode}&v=${version}&method=BOOKMARK`;
         } else {
             alert("Please go to MaimaiDX.NET and try again.");
 

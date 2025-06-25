@@ -1,7 +1,8 @@
-const server = "https://caloutw.github.io/v2";
-const version = "2.0";
 
 function main() {
+    const server = "https://caloutw.github.io/v2";
+    const version = "2.0";
+
     const DX_Rating_iframe = document.createElement("iframe");
     DX_Rating_iframe.src = "https://maimaidx-eng.com/maimai-mobile/home/ratingTargetMusic/";
     DX_Rating_iframe.style = "display:none;"

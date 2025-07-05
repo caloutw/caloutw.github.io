@@ -12,7 +12,7 @@
 | 4 | 登入 Maimai DX NET | 生成 _t & userId | Maimai DX NET 的臨時憑證，是基於 clal 的第二組通行證 | GET |
 
 ## mimi xd bot 從何開始擷取？
-答案是 2，從 2 開始獲取 clal 後繼續往下執行
+答案是 3，從 3 開始後繼續往下執行
 
 ## clal 與 登入之間的關係
 | clal 狀態 | 行為 | 說明 |
@@ -31,7 +31,7 @@
 三者皆會要求重新登入
 
 ## 我可以利用 X、Facebook 和 LINE 登入嗎？
-可以，但這就必須從 clal (第2步) 下手
+可以，但這就必須從 clal (第3步) 下手
 
 ## 後續 Waimai XD 會如何執行？
 從 1 開始，因此無法使用 X、Facebook 和 LINE 登入

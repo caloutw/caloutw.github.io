@@ -1,10 +1,10 @@
-const server = "https://caloutw.github.io";
-const version = "1.4";
-
 function main() {
+    const server = "https://caloutw.github.io/";
+    const version = "2.0";
+
     const DX_Rating_iframe = document.createElement("iframe");
     DX_Rating_iframe.src = "https://maimaidx-eng.com/maimai-mobile/home/ratingTargetMusic/";
-    DX_Rating_iframe.style = "display:none;"
+    DX_Rating_iframe.style = "display:none;";
     document.body.appendChild(DX_Rating_iframe);
 
     function decodeHTMLEntities(str) {
@@ -41,6 +41,12 @@ function main() {
 
                 if (title_pos_list.length >= 3)
                     break;
+            }
+
+            if(title_pos_list.length != 3){
+              alert("please login again.");
+              location.href = `https://maimaidx-eng.com/maimai-mobile/home/ratingTargetMusic/`;
+              return;
             }
 
             //將訊息50首擷取
@@ -86,7 +92,7 @@ function main() {
         if (result) {
             const playerData_encode = encodeURIComponent(JSON.stringify(result));
             
-            location.href = `${server}/?p=MRC50&rd=${playerData_encode}&v=${version}`;
+            location.href = `${server}?p=mrc50&d=${playerData_encode}&v=${version}&method=BOOKMARK`;
         } else {
             alert("Please go to MaimaiDX.NET and try again.");
 

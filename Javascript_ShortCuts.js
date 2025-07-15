@@ -1,5 +1,5 @@
 function main() {
-    const server = "https://caloutw.github.io/";
+    const server = "https://caloutw.github.io";
     const version = "2.0";
 
     const DX_Rating_iframe = document.createElement("iframe");

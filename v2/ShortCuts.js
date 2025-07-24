@@ -65,7 +65,7 @@ function main() {
                     for (let i = title_pos_list[flags] + 1; i < title_pos_list[flags + 1]; i++) {
                         const difficulty = main_o_Node[i].className.split(" ")[0].split("_")[1];
                         const musicName = decodeHTMLEntities(main_o_Node[i].querySelector(".music_name_block").innerHTML);
-                        const achievement = parseFloat(main_o_Node[i].querySelector(".music_score_block").innerHTML.replaceAll("%", ""));
+                        const achievement = parseFloat(main_o_Node[i].querySelector(".music_score_block").innerText.trim().replaceAll("%", ""));
                         const type = main_o_Node[i].querySelector(".music_kind_icon").src.split("/").at(-1).split(".")[0].replaceAll("music_", "");
 
                         songs.push([
